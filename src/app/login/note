@@ -1,0 +1,18 @@
+ 
+
+ html to ts
+ view to component
+
+ 1. one by binding(one way binding )
+     1.1 Component to view
+        1.1.1 string interpolation  {{}}
+        1.1.2 property binding [ property]="value"
+
+    1.2 view to component
+
+         1.2.1 event binding (event name)="function name()"
+         
+
+        
+
+

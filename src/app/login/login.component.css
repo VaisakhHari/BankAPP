@@ -1,0 +1,58 @@
+:root {
+    scroll-behavior: smooth;
+    /* background-color:blueviolet; */
+}
+
+.bodyDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px ;
+    /* background-color: blueviolet; */
+  
+}
+
+.mainBody{
+height: 350px;
+width: 400px;
+background-color: white;
+border-radius: 30px;
+ 
+}
+
+
+.input-icons i {
+    position: absolute;
+  
+ 
+}
+  
+
+.icon{
+
+    padding: 12px;
+    min-width: 40px;
+    color: blueviolet;
+}
+
+.formBody{
+    margin-left: 20%;
+}
+
+.iconn{
+    padding-top: 28px;
+}
+
+.iconeye{
+    padding-top: 28px;
+    padding-left: 210px;
+    z-index: 0;
+}
+
+.buttonZ{
+    width: 180px;
+    height: 40px;
+    border-radius:20px;
+    background-image: linear-gradient(to right, blueviolet,blue);
+    color: white;
+    
+}
