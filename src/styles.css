@@ -2,7 +2,9 @@
 
 
 body{
-    background-image: url(assets/micheile-dot-com-ZVprbBmT8QA-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url(assets/moja-msanii-vO9-gal54go-unsplash.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+
+   
 }

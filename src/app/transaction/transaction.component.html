@@ -1,0 +1,30 @@
+<!-- Transaction HISTORY -->
+
+<!-- Structural Directive *ngFor ..can apply directly in html for accesing data from an array to html-->
+
+
+
+
+<h2 style="color:white ; font-weight: bold; text-shadow: black 2px;" class="ms-4 mt-3"><u>Your Transactions</u></h2>
+<div class="table-div" style="text-align: center;">
+    <table style="width:70%">
+        <tr class="tt">
+            <th class="tt">Type</th>
+            <th class="tt">Amount</th>
+
+        </tr>
+        <tr *ngFor="let i of transaction" class="tt">
+            <td class="tt">{{i.type}}</td>
+            <td class="tt">{{i.amount}}{{i.amount1}}</td>
+        </tr>
+
+       
+
+
+
+
+    </table>
+
+</div>
+
+<h3 class="goback"><a routerLink="/dashboard" style=" font-weight: 500; color: azure;">Go back to the previous page</a></h3>

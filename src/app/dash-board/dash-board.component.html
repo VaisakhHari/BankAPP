@@ -1,0 +1,43 @@
+
+<h1 style="color: white; font-weight: bold; " class="mt-4 ms-4">Welcome {{user}}!!!</h1>
+<div class="ms-4 mt-2 ps-4">
+<a routerLink="/transaction" style="color:white ; font-weight: bold;" >View Transaction History</a>
+
+</div>
+
+
+
+<div class="container w-50 bg-dark pt-2 mt-2">
+    <h2 style="color: white; text-align: center;">Deposit</h2>
+        
+
+        <input type="text" placeholder="account number" id="accountno"  [(ngModel)]="acnum"  class="mt-5 form-control"> <br>
+        <input type="password" placeholder="password" id="password"  [(ngModel)]="pswrd" class="mt-5 form-control"> <br>
+        <input type="text" placeholder="Deposit Amount" id="damount"  [(ngModel)]="amnt"  class="form-control p-2" style="margin-top: 30px;"> <br>
+
+    <div style="text-align: center;">
+            <button type="submit" class="mt-3 btn btn-info p-2 mb-3 text-center" (click)="deposit()"  >DEPOSIT</button> 
+    
+    </div>  
+
+
+</div>
+
+<div class="container w-50 bg-dark pt-2 mt-4 ">
+    <h2 style="color: white;text-align: center;">Withdraw</h2>
+        
+
+        <input type="text" placeholder="enter your accout number" id="accountno1"  [(ngModel)]="acnum1" class="mt-5 form-control"> <br>
+        <input type="password" placeholder="password" id="password1"  [(ngModel)]="pswrd1"  class="mt-5 form-control"> <br>
+        <input type="text" placeholder="Withdraw Amount" id="wamount"  [(ngModel)]="amnt1" class="form-control p-2" style="margin-top: 30px;"> <br>
+
+    <div style="text-align: center ;">
+            <button type="submit" class="mt-3 btn btn-info p-2 mb-3 text-center"  (click)="withdraw()">WITHDRAW</button> 
+    
+    </div>  
+
+
+
+</div>
+
+

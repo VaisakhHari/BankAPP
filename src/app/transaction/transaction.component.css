@@ -1,0 +1,27 @@
+table{
+    border:3px solid white;
+    position: absolute;
+    top: 30%;
+    color:black;
+    background-color: antiquewhite;
+  }
+
+
+  .tt{
+    border:3px solid black;
+
+
+  }
+
+  .table-div{
+    display: flex;
+justify-content: center;
+
+  }
+
+  .goback{
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    margin-left: 100px;
+  }
